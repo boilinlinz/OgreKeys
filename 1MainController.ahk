@@ -2,7 +2,7 @@
 This is the Parent script 
 It uses the CapsLock key to control which child scripts run
 The child scripts contain the desired layouts/layers
- 
+   
 Right now, there is only one child for navigation since I'm still afraid to 
 remap other keys aside from capslock
 
@@ -21,6 +21,7 @@ runs a separate script when caps lock is on
 9 - turn the time display into a function for readability  - DONE
 6 - Automate the resolution - DONE		
 11- True spacebar CTRL functionality - DONE, still needs work with remapped keys, also with caps lock indicator
+16 - Space Ctrl Bug  when space pressed before switching to typing/main layer - DONE by adding space in the  matchlist
 
 7 - Add ability to invert mouse behavior (speed)
 8 - Display wpm/ bonggo cat drumming when typing  (Kaomoji, also can be animated?)
@@ -94,7 +95,7 @@ Loop ; Displays time every 5 minutes then sleeps for another 5 minutes
 		Sleep, 292000 ; Takes effect as soon as SetTimer is called, not when it ends.
 		}
 }
-
+ 
 ;Reloads script for emergency purposes ; Loops after this hotkey doesn't work, don't know why
 ^`:: ;Ctrl + ` (tilde key)	
 Reload 

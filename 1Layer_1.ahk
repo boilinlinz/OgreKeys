@@ -54,11 +54,11 @@ while (spacebar_status = 1)
 return
 key_interceptor() ; Starts an input interceptor to collect keys while pressing spacebar
 	{
-	collect_key := inputhook()
+	collect_key := inputhook( , ," " ) ;Using space in a matchlist to end input
 	collect_key.KeyOpt("{All}", "ES") 
-	collect_key.KeyOpt("{space}{CapsLock}{LCtrl}{RCtrl}{LAlt}{RAlt}{LShift}{RShift}{LWin}{RWin}", "-ES") ; Keys that won't end input collection
+	collect_key.KeyOpt("{CapsLock}{LCtrl}{RCtrl}{LAlt}{RAlt}{LShift}{RShift}{LWin}{RWin}", "-ES") ; Keys that won't end input collection
 	collect_key.start()
-	collect_key.wait()
+	collect_key.wait()     
 	detected_keys := make_bracketed(collect_key.EndMods, collect_key.EndKey) ;Pass the Mods and key pressed to function
 	return detected_keys
 	}
@@ -92,5 +92,3 @@ make_bracketed(raw_mod, raw_key) ; Adds brackets to normal keys and combines wit
 0::f10
 
 ;Disabled layer keys
-
-
