@@ -17,7 +17,7 @@ It's ready to use but I'm still trying  to make it as configurable as possible.
 ## Layout
 There are two layouts: The controller, which is used for typing and normal stuff, and Layer1 which is used for navigation (labeled too) 
 
-Normal layer is the stock configuration of the keyboard with a few tweaks namely the "\" key on top of the enter key is remapped to become the backspace and the backspace key now produces the backslash. The remapped backspace key can now be used as the Del key by pressing Shift+Backspace.
+Normal layer is the stock configuration of the keyboard with a few tweaks namely the "\" key on top of the enter key is remapped to become the backspace and the backspace key now produces the backslash. The remapped backspace key can now be used as the Del key by pressing Shift+Backspace. These remaps will always be active whereas the Layer1 remaps will only be active when capslock is on
 
 Layer1 is activated using the capslock key, it's launched as soon as the Main controller runs. It's labeled "Navigation" as seen in the tooltip. The remaps are:
 - Space key as CTRL key
