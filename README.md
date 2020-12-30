@@ -1,5 +1,7 @@
 # OgreKeys
-Keyboard layers
+Autohotkey Keyboard layer(s*)
+
+###### currently only has one layer ✌️
 
 Features list:
 1. Normal Layer and Navigation layer using capslock, normal layer is unchanged except for hhkb-style backspace
@@ -24,3 +26,8 @@ Layer1 is activated using the capslock key, it's launched as soon as the Main co
 - IJKL for arrow keys, U, and O for pageup/dn
 - ESDF to control mouse movement, hold shift to slow down movement. W and R for left or right click. Hold W or R for...well, hold
 -  "/" + arrow keys (IJKL) to navigate the "desktops" in windows. / + tab for alt+tab alternative.
+## Known Issues
+- Can't set the script to start on windows start. There are ways to do this but only in windows, not in the script.
+- The remap "\" key (now backspace) will send \ once when space as Ctrl is pressed and no endkey was received.
+- Holding the W or R key for long press detection consumes an abnormal size of cpu (max of 17% when holding the key, monitored on task manager), at least in my humble Intel Atom Z3735F laptop with 2gb of Ram :)
+- Cannot be used with task manager unless it's in administrator mode (Be careful of doing this with other scripts since programs launched in an administrator autohotkey script would run in administrator mode too.)
