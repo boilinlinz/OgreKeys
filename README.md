@@ -15,7 +15,9 @@ Features list:
 This requires autohotkey installed.
 Store both scripts in the same folder.
 It's ready to use but I'm still trying  to make it as configurable as possible.
+Open 1MainController and visit the Configuration area, the only thing that should be changed is the location of Layer1. Just paste the directory of the file (which must be in the same folder as the 1MainController), the other stuff there are for customization when needed.
 If anything goes wrong, mainly the navigation mode and typing mode sync, CTRL + ` `  `(Tilde key) will reload the script, including Layer 1
+
 
 ## Layout
 There are two layouts: The controller, which is used for typing and normal stuff, and Layer1 which is used for navigation (labeled too) 
