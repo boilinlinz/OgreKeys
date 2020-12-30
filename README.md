@@ -15,7 +15,7 @@ Features list:
 This requires autohotkey installed.
 Store both scripts in the same folder.
 It's ready to use but I'm still trying  to make it as configurable as possible.
-If anything goes wrong, mainly the navigation mode and typing mode sync, CTRL + `  `(Tilde key) will reload the script, including Layer 1
+If anything goes wrong, mainly the navigation mode and typing mode sync, CTRL + ` `  `(Tilde key) will reload the script, including Layer 1
 
 ## Layout
 There are two layouts: The controller, which is used for typing and normal stuff, and Layer1 which is used for navigation (labeled too) 
