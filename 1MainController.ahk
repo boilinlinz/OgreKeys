@@ -14,22 +14,23 @@ runs a separate script when caps lock is on
 /*
  ---------------------- Todo list ----------------------
 1 - Add a faster cursor movement (shift boost) - DONE
-2 - Make script autorun when windows startup - No automatic solution, Use windows functionality instead
-3 - Put reload tooltip to the top - Done, timing is meh
+3  - Put reload tooltip to the top - Done, timing is meh
 4 - shift backspace delete key - DONE 
 5 - Tooltip time show  - DONE
 9 - turn the time display into a function for readability  - DONE
 6 - Automate the resolution - DONE		
 11- True spacebar CTRL functionality - DONE, still needs work with remapped keys, also with caps lock indicator
 16 - Space Ctrl Bug  when space pressed before switching to typing/main layer - DONE by adding space in the  matchlist
+10 - enable mouse drag - Probably next thing to do to complete its functionality - DONE, layout is meh
 
-7 - Add ability to invert mouse behavior (speed)
-8 - Display wpm/ bonggo cat drumming when typing  (Kaomoji, also can be animated?)
-10 - enable mouse drag
+2 - Make script autorun when windows startup - No automatic solution, Use windows functionality instead, more info in config area
+7 - Add ability to invert mouse behavior (speed) - Can't see importance of this
+8 - Display wpm/ bonggo cat drumming when typing  (Kaomoji, also can be animated?) - would be neat but it would have to run continously, consuming memory
 12 - if typing, disable mouse - Not sure if worth adding since would make games weird
-13 - Add return functionality for Shift Enter - Not easily achievable keylist has no return
+13 - Add return functionality for Shift Enter - Not easily achievable - keylist has no return because it's "ambiguous"
 14 - enable administrator rights when running to be able to control task manager
-15 - reconstruct tell_time() to become more modular (for todo #8)
+15 - reconstruct tell_time() to become more modular (for todo #8) - I can also see this as something that is nice to do
+16 - remove global variables 
 */
 
 ;-----------------Configuration - Setup the variables before using the script! --------------------
@@ -131,10 +132,10 @@ BackSpace::\
 ; Functions
 tell_time(func_loop, anim_loop)
 {
-	;Put as many emoji frames you like
+	;Put as many emoji frames you like xD
 	;;;;;---------|--------------|
 	emoji_1 := "     -_-      "
-	emoji_2 := "  〇^-^ )o  "
+	emoji_2 := "  〇^-^ )o  " ; running/ in a hurry, two meanings, really cool
 	emoji_3 := "  o( ^-^〇  "
 	emoji_4 := "               "
 	emoji_5 := "               "
