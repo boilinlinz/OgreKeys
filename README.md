@@ -22,5 +22,5 @@ Normal layer is the stock configuration of the keyboard with a few tweaks namely
 Layer1 is activated using the capslock key, it's launched as soon as the Main controller runs. It's labeled "Navigation" as seen in the tooltip. The remaps are:
 - Space key as CTRL key
 - IJKL for arrow keys, U, and O for pageup/dn
-- ESDF to control mouse movement, hold shift to slow down movement. W and R for left or right click.
+- ESDF to control mouse movement, hold shift to slow down movement. W and R for left or right click. Hold W or R for...well, hold
 -  "/" + arrow keys (IJKL) to navigate the "desktops" in windows. / + tab for alt+tab alternative.
