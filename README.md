@@ -27,8 +27,8 @@ Normal layer is the stock configuration of the keyboard with a few tweaks namely
 Layer1 is activated using the capslock key, it's launched as soon as the Main controller runs. It's labeled "Navigation" as seen in the tooltip. The remaps are:
 - Space key as CTRL key
 - IJKL for arrow keys, U, and O for pageup/dn
-- ESDF to control mouse movement, hold shift to slow down movement. W and R for left or right click. Hold W or R for...well, hold. It's possible to change the time that it takes for AHK to detect that it's a long press by modifying longpress_duration in Layer1.
--  "/" + arrow keys (IJKL) to navigate the "desktops" in windows. / + tab for alt+tab alternative
+- ESDF to control mouse movement, hold shift to slow down movement. W and R for left or right click. Hold W or R to enable mouse drag mode which holds down the mouse button. Press the key again to disengage. It's possible to change the time that it takes for AHK to detect that it's a long press by modifying longpress_duration in Layer1.
+-  "/" + arrow keys (IJKL) to navigate the "desktops" in Windows. "/" + tab for alt+tab alternative (questionable position? please suggest some alternatives :) )
 
 
 ## Known Issues
